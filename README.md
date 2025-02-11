@@ -23,9 +23,6 @@ Para instalar e executar o projeto localmente, siga os passos abaixo:
   npm start
   ```
 
-## Tecnologias Utilizadas
-![Linguagens Utilizadas](https://img.shields.io/github/languages/top/seu-usuario/gerenciador)
-
 ## Contatos
 - **WhatsApp:** [35984061841](https://wa.me/5535984061841)
 - **LinkedIn:** [Rodrigo Marques Tavares](https://www.linkedin.com/in/rodrigo-marques-tavares-9482b4226/)

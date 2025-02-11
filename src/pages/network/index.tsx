@@ -3,7 +3,6 @@ import { Header } from "../../components/header"
 import { Input } from "../../components/input"
 import { db } from "../../services/firebaseConection"
 import { setDoc, doc, getDoc } from "firebase/firestore"
-import { snapshot } from "node:test"
 
 export function Network(){
 
