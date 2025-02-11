@@ -3,6 +3,7 @@ import { Input } from "../../components/input"
 import { FormEvent, useState } from "react"
 import { auth } from '../../services/firebaseConection'
 import { signInWithEmailAndPassword } from 'firebase/auth'
+import Logo from '../../assets/logo_fundo_escuro.png'
 
 export function Login(){
     const [email, setEmail] = useState("")
@@ -30,7 +31,7 @@ export function Login(){
     return(
         <div className="flex w-full h-screen items-center justify-center flex-col gap-4">
             <Link to='/'>
-                <img className="w-50" src="src/assets/logo_fundo_escuro.png" alt="Logo" />
+                <img className="w-50" src={Logo} alt="Logo" />
             </Link>
             <form className="w-full max-w-xl flex flex-col px-2" onSubmit={handleSubmit}>
                 <Input
