@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { db } from "../../services/firebaseConection";
 import { getDocs, collection, orderBy, query, doc, getDoc  } from "firebase/firestore";
 import { useEffect, useState } from "react";
+import Logo from '../../assets/logo_fundo_escuro.png'
 
 interface LinksProps{
     id: string,
@@ -64,7 +65,7 @@ export function Home(){
     return(
         <div className="flex flex-col w-full py-4 items-center justify-center">
             <Link to='/'>
-                <img className="w-50" src="src/assets/logo_fundo_escuro.png" alt="Logo" />
+                <img className="w-50" src={Logo} alt="Logo" />
             </Link>
             <span className="text-gray-50 mb-5 mt-3">Meus links</span>
 
