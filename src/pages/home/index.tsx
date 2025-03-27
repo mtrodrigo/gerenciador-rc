@@ -20,7 +20,8 @@ interface SocialLinkProps{
 }
 
 export function Home(){
-
+    console.log(db);
+    
     const [links, setLinks] = useState<LinksProps[]>([])
     const [socialLinks, setSocialLinks] = useState<SocialLinkProps>()
 
